@@ -18,7 +18,7 @@ As skills do Claude Code podem ser instaladas de duas formas: **global** (dispon
 
 ### Instalação global
 
-Copie a skill para a pasta `.claude\skills` dentro da pasta do usuário. Exemplo:
+Copie a pasta da skill para a pasta `.claude\skills` dentro da pasta do usuário. Exemplo:
 
 ```
 C:\Users\<seu-usuario>\.claude\skills\create-solution-using-clean-architecture
@@ -26,7 +26,7 @@ C:\Users\<seu-usuario>\.claude\skills\create-solution-using-clean-architecture
 
 ### Instalação local
 
-Copie a skill para a pasta `.claude\skills` dentro da raiz do projeto onde ela deve ser usada. Exemplo:
+Copie a pasta da skill para a pasta `.claude\skills` dentro da raiz do projeto onde ela deve ser usada. Exemplo:
 
 ```
 <raiz-do-projeto>\.claude\skills\create-solution-using-clean-architecture
