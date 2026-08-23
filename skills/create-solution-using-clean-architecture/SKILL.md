@@ -61,6 +61,26 @@ A versão mínima permitida é .NET 5.
 
 Se o usuário informar uma versão inferior a .NET 5, informe que a versão não é suportada e solicite outra.
 
+Depois que essas informações forem fornecidas, execute toda a tarefa sem solicitar confirmação adicional, desde que:
+
+- A pasta de destino não exista;
+- Não existam arquivos que serão sobrescritos;
+- A versão do .NET seja válida;
+- Os comandos necessários estejam disponíveis.
+
+Não pergunte ao usuário se deve executar comandos individuais.
+
+Não solicite confirmação antes de:
+- criar diretórios;
+- criar projetos;
+- adicionar projetos à Solution;
+- adicionar referências entre projetos;
+- remover as classes `Class1.cs` e `UnitTest1.cs`;
+- configurar os arquivos `.csproj`;
+- executar `dotnet build`.
+
+Utilize os padrões definidos nesta skill sempre que uma decisão não tiver sido especificada pelo usuário.
+
 ## Convenção de nomes
 
 Se o usuário informar:
