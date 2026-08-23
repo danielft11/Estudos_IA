@@ -1,6 +1,6 @@
 # Estudos_IA
 
-Repositório pessoal de estudos de IA, contendo skills para o [Claude Code](https://claude.ai/code).
+Repositório de estudos de IA, contendo skills e agentes para o [Claude Code](https://claude.ai/code).
 
 ## Skills disponíveis
 
@@ -18,7 +18,7 @@ As skills do Claude Code podem ser instaladas de duas formas: **global** (dispon
 
 ### Instalação global
 
-Copie a pasta da skill para a pasta `.claude\skills` dentro da pasta do usuário. Exemplo:
+Copie a skill para a pasta `.claude\skills` dentro da pasta do usuário. Exemplo:
 
 ```
 C:\Users\<seu-usuario>\.claude\skills\create-solution-using-clean-architecture
@@ -26,7 +26,7 @@ C:\Users\<seu-usuario>\.claude\skills\create-solution-using-clean-architecture
 
 ### Instalação local
 
-Copie a pasta da skill para a pasta `.claude\skills` dentro da raiz do projeto onde ela deve ser usada. Exemplo:
+Copie a skill para a pasta `.claude\skills` dentro da raiz do projeto onde ela deve ser usada. Exemplo:
 
 ```
 <raiz-do-projeto>\.claude\skills\create-solution-using-clean-architecture

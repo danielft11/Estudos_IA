@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a personal AI/ML studies repository (`Estudos_IA` = "AI Studies" in Portuguese). Its main content today is a set of Claude Code skills (see `skills/`) rather than application source code.
+This is an AI/ML studies repository. Its main content today is a set of Claude Code skills (see `skills/`) rather than application source code.
 
 ## Skills
 
